@@ -94,14 +94,14 @@ def downsample_df_for_plot(df: pd.DataFrame, x_col: str, max_points: int = 3000)
 # Streamlit UI
 # ====================================================
 st.set_page_config(page_title="TCLab — Huffman + Setpoints (Streamlit)", layout="wide", page_icon="🌡️")
-st.title("🌡️ TCLab — Compressão Huffman + Setpoints (interativo)")
+st.title("🌡️ TCLab — Compressão Huffman ")
 
 st.markdown("""
 - Envie o CSV do TCLab (colunas esperadas: **Time (s)**, **T1**, **T2**, **Q1**, **Q2**).
 - O script comprime e descomprime com Huffman internamente e exibe:
   - Gráfico de Temperaturas (T1, T2) com linhas de setpoint;
   - Gráfico de Atuadores (Q1, Q2).
-- Os sliders `T1_setpoint` e `T2_setpoint` atualizam o gráfico em tempo real.
+- Os sliders `T1_setpoint` e `T2_setpoint` atualizam o gráfico.
 """)
 
 # Upload
@@ -132,7 +132,7 @@ def compress_decompress_cached(file_bytes_blob: bytes):
         "decoded_bytes": decoded_bytes
     }
 
-with st.spinner("🔧 Executando compressão/descompressão (Huffman) — isso pode demorar um pouco para arquivos muito grandes..."):
+with st.spinner("🔧 Executando compressão/descompressão (Huffman)"):
     info = compress_decompress_cached(file_bytes)
 
 # Verificações básicas
