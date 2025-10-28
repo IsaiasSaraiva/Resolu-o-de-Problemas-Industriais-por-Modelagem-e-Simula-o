@@ -46,10 +46,10 @@ Certifique-se de ter o **Python** instalado em sua máquina.
 
 ###  Clonar este repositório
 ```bash
-  git clone
+  git clone https://github.com/IsaiasSaraiva/Resolu-o-de-Problemas-Industriais-por-Modelagem-e-Simula-o.git
 ```
 
-### 1️⃣ Criar e Ativar o Ambiente Virtual
+###  Criar e Ativar o Ambiente Virtual
 
 É uma boa prática isolar as dependências do projeto:
 
