@@ -1,4 +1,4 @@
-# 🧠 Resolução de Problemas Industriais por Modelagem e Simulação
+#  Resolução de Problemas Industriais por Modelagem e Simulação
 
 📖 **Visão Geral**
 
@@ -9,14 +9,14 @@ O projeto aborda a análise de um problema de controle em um sistema dinâmico, 
 
 ---
 
-## 💡 Conceitos Principais
+##  Conceitos Principais
 
-### 🔹 Modelagem e Simulação de Sistemas Dinâmicos
+###  Modelagem e Simulação de Sistemas Dinâmicos
 
 - O **TCLab** simula um processo industrial de controle de temperatura (aquecimento e resfriamento).  
 - A interface permite a **visualização e análise das curvas de temperatura (T1 e T2)** em resposta aos **atuadores (Q1 e Q2)**, com a adição de **setpoints interativos** para referência.
 
-### 🔹 Eficiência Computacional (Compressão de Dados)
+###  Eficiência Computacional (Compressão de Dados)
 
 - Todo o arquivo de dados **CSV** (que representa os dados reais de experimento por 7 dias) é submetido à **compressão e descompressão Huffman** a nível de bytes.  
 - Este processo simula a necessidade industrial de **armazenar ou transmitir grandes volumes de dados de sensores** com a máxima eficiência, permitindo a **reconstrução exata do sinal** para análise.  
@@ -24,7 +24,7 @@ O projeto aborda a análise de um problema de controle em um sistema dinâmico, 
 
 ---
 
-## 🚀 Aplicação Interativa (`interface.py`)
+##  Aplicação Interativa (`interface.py`)
 
 O arquivo `interface.py` é um **aplicativo web interativo** construído com a biblioteca **Streamlit**. Ele oferece as seguintes funcionalidades:
 
@@ -36,9 +36,9 @@ O arquivo `interface.py` é um **aplicativo web interativo** construído com a b
 
 ---
 
-## ⚙️ Como Executar
+##  Como Executar
 
-### 🧩 Pré-requisitos
+###  Pré-requisitos
 
 Certifique-se de ter o **Python** instalado em sua máquina.
 
